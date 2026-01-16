@@ -1,0 +1,69 @@
+================================================================================
+JUJUBABY CEP - COMANDOS RÁPIDOS PARA DEPLOY
+================================================================================
+
+CONFIGURAÇÃO INICIAL (executar uma única vez):
+================================================================================
+
+git config --global user.name "jujubaby05"
+git config --global user.email "0d5a6d@gmail.com"
+
+================================================================================
+PRIMEIRO UPLOAD PARA GITHUB (executar uma única vez):
+================================================================================
+
+1. Abra o terminal na pasta do projeto
+
+2. Execute os comandos na ordem:
+
+git init
+
+git add .
+
+git commit -m "Inicial: JuJuBaBy CEP com novo branding"
+
+git branch -M main
+
+git remote add origin https://github.com/jujubaby05/jujubabyceP.git
+
+git push -u origin main
+
+(Você será pedido para fazer login no GitHub - siga as instruções)
+
+================================================================================
+ATUALIZAR O SITE (executar sempre que fizer mudanças):
+================================================================================
+
+1. Abra o terminal na pasta do projeto
+
+2. Execute os comandos:
+
+git add .
+
+git commit -m "Descrição da mudança aqui"
+
+git push
+
+(Pronto! O Netlify atualizará seu site automaticamente em poucos minutos)
+
+================================================================================
+EXEMPLOS DE MENSAGENS DE COMMIT:
+================================================================================
+
+git commit -m "Atualizar cores da etiqueta"
+git commit -m "Corrigir cálculo de frete"
+git commit -m "Adicionar novo CEP padrão"
+git commit -m "Melhorar interface"
+git commit -m "Corrigir bug na geração de PDF"
+
+================================================================================
+VERIFICAR STATUS:
+================================================================================
+
+git status          (mostra o status atual)
+git log             (mostra histórico de commits)
+git remote -v       (mostra repositório remoto)
+
+================================================================================
+DÚVIDAS? RELEIA O ARQUIVO: GUIA_DEPLOY.md
+================================================================================
